@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="my_titan"
+version="1.0.0"
+displayName="My Titan"
+credits="Programming by KillsBoostMyEgo, Models by RetiredTeenager and Jerremy18"
+displayURL="https://discord.gg/AaF638kdtjdd"
+authors="KillsBoostMyEgo, RetiredTeenager, Jerremy18"
+description='''
+An Attack on Titan mod
+'''
+
+[[dependencies.my_titan]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.my_titan]]
+    modId="obfuscate"
+    mandatory=false
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.my_titan]]
+    modId="geckolib"
+    mandatory=false
+    ordering="NONE"
+    side="BOTH"
+

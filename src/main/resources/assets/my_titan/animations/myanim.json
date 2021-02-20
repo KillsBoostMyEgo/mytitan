@@ -1,0 +1,55 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"myanim": {
+			"loop": true,
+			"animation_length": 3.16,
+			"override_previous_animation": true,
+			"bones": {
+				"all": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 90, 0]
+						},
+						"1.56": {
+							"vector": [0, 0, 0]
+						},
+						"3.16": {
+							"vector": [0, -90, 0]
+						}
+					}
+				},
+				"MAMADISIMOMOMENTO": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"3.2": {
+							"vector": [0, 90, 0]
+						}
+					}
+				},
+				"shoulders": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"3.2": {
+							"vector": [0, 90, 0]
+						}
+					}
+				},
+				"torso": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"3.2": {
+							"vector": [0, 90, 0]
+						}
+					}
+				}
+			}
+		}
+	}
+}

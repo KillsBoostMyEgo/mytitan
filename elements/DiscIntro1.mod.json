@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc",
+    "name": "Music Disc",
+    "description": "Linked Horizon  - Guren no Yumiya",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:s1intro1"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

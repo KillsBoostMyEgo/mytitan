@@ -1,0 +1,1575 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "KeyBindingTransform",
+      "type": "keybind",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_binding_transform"
+    },
+    {
+      "name": "ProcedureTransform",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "procedure_transform",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AttackTitanTransform",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attack_titan_transform",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ParticlesAttackTitan",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "particles_attack_titan",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EntityControllableAttackTitan",
+      "type": "mob",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entity_controllable_attack_titan"
+    },
+    {
+      "name": "DiscIntro1",
+      "type": "musicdisc",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_intro_1"
+    },
+    {
+      "name": "DiscIntro2",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_intro_2"
+    },
+    {
+      "name": "DiscIntro3",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_intro_3"
+    },
+    {
+      "name": "DiscIntro4",
+      "type": "musicdisc",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_intro_4"
+    },
+    {
+      "name": "DiscIntro5",
+      "type": "musicdisc",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_intro_5"
+    },
+    {
+      "name": "DiscIntro6",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_intro_6"
+    },
+    {
+      "name": "CreativeTabMyTitan",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_tab_my_titan"
+    },
+    {
+      "name": "GuiTitanSelection",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_titan_selection"
+    },
+    {
+      "name": "KeyBindOpenSelectionGUIOnKeyPressed",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_bind_open_selection_gui_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeyBindOpenSelectionGUI",
+      "type": "keybind",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_bind_open_selection_gui"
+    },
+    {
+      "name": "OverlayTitanEffect",
+      "type": "overlay",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overlay_titan_effect"
+    },
+    {
+      "name": "TitanJumpOnKeyPressed",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_jump_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitanJump",
+      "type": "keybind",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_jump"
+    },
+    {
+      "name": "TitanCheckAttack",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_check_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitanCheckFemale",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_check_female",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitanCheckColossus",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_check_colossus",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitanCheckArmored",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_check_armored",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitanCheckBeast",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_check_beast",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitanCheckCart",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_check_cart",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitanCheckJaw",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_check_jaw",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitanCheckFounding",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_check_founding",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitanCheckWarhammer",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "titan_check_warhammer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BeastTitanTransform",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beast_titan_transform",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "JawTitanTransform",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jaw_titan_transform",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "FoundingTitanTransform",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "founding_titan_transform",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "WarHammerTransform",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "war_hammer_transform",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "EntityControllableFemaleTitan",
+      "type": "mob",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entity_controllable_female_titan"
+    },
+    {
+      "name": "FemaleTitanTransform",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "female_titan_transform",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeyBindHealOnKeyPressed",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_bind_heal_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeyBindHeal",
+      "type": "keybind",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_bind_heal"
+    },
+    {
+      "name": "AutoUnlockTitanAttackRightClickedInAir",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_unlock_titan_attack_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AutoUnlockTitanAttack",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_unlock_titan_attack"
+    },
+    {
+      "name": "AutoUnlockTitanFemale",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_unlock_titan_female"
+    },
+    {
+      "name": "AutoUnlockTitanFemaleRightClickedInAir",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_unlock_titan_female_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EntityControllableColossalTitan",
+      "type": "mob",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entity_controllable_colossal_titan"
+    },
+    {
+      "name": "AutoUnlockTitanColossal",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_unlock_titan_colossal"
+    },
+    {
+      "name": "AutoUnlockTitanColossalRightClickedInAir",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_unlock_titan_colossal_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ColossalTitanTransform",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "colossal_titan_transform",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EntityControllableColossalTitanOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entity_controllable_colossal_titan_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ColossalTitanAbilities",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "colossal_titan_abilities",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ColossalTitanEnable2ndAbility",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "colossal_titan_enable_2nd_ability",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ColossalTitan2ndAbilityStop",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "colossal_titan_2nd_ability_stop",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeyBindingTitan2ndaryAbility",
+      "type": "keybind",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_binding_titan_2ndary_ability"
+    },
+    {
+      "name": "TransformBitingAnimation",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "transform_biting_animation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "playerModel",
+            "type": "playerModel"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiscYouSeeBigGirl",
+      "type": "musicdisc",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "disc_you_see_big_girl"
+    },
+    {
+      "name": "CartTitanGUI",
+      "type": "gui",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart_titan_gui"
+    },
+    {
+      "name": "EntityControllableCartTitan",
+      "type": "mob",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entity_controllable_cart_titan"
+    },
+    {
+      "name": "ItemMiniGunPellets",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_mini_gun_pellets"
+    },
+    {
+      "name": "WeaponCartTitanMinigun",
+      "type": "gun",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "weapon_cart_titan_minigun"
+    },
+    {
+      "name": "ItemSaddleCartTitan",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_saddle_cart_titan"
+    },
+    {
+      "name": "EntityControllableCartTitanRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entity_controllable_cart_titan_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CartTitanTransform",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart_titan_transform",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EntityControllableCartTitanOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entity_controllable_cart_titan_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AutoUnlockTitanCart",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_unlock_titan_cart"
+    },
+    {
+      "name": "AutoUnlockTitanCartRightClickedInAir",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_unlock_titan_cart_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeyTitanPrimaryAttack",
+      "type": "keybind",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_titan_primary_attack"
+    },
+    {
+      "name": "KeyBindingTitanPrimaryAbility",
+      "type": "keybind",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_binding_titan_primary_ability"
+    },
+    {
+      "name": "EntityControllableArmoredTitan",
+      "type": "mob",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entity_controllable_armored_titan"
+    },
+    {
+      "name": "CartTitanGUIWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cart_titan_gui_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ArmoredTitanTransform",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armored_titan_transform",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AutoUnlockTitanArmored",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_unlock_titan_armored"
+    },
+    {
+      "name": "AutoUnlockTitanArmoredRightClickedInAir",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "auto_unlock_titan_armored_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Animationtest",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "animationtest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "selectedTitan",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "hasTitanAttack",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hasTitanColossus",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hasTitanFemale",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hasTitanArmored",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hasTitanCart",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hasTitanBeast",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hasTitanWarHammer",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hasTitanJaw",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hasTitanFounding",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "isColossalAbilityOn",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "genertictransform",
+      "files": [
+        "titanshifting"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "s2intro",
+      "files": [
+        "s2intro"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "s1intro2",
+      "files": [
+        "s1intro2"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "s1intro1",
+      "files": [
+        "s1intro"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "s3intro1",
+      "files": [
+        "s3intro"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "s3intro2",
+      "files": [
+        "s3intro2"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "s4intro",
+      "files": [
+        "s4intro"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "attacktitanerentransform",
+      "files": [
+        "attack_titan_eren_roar_sound_effect"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "titalselectionsmusic",
+      "files": [
+        "titanselectionguisfx"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "heartbeat",
+      "files": [
+        "heartbeatsfx"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "femaletitanroar",
+      "files": [
+        "femaletitanscream"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "healingsfx",
+      "files": [
+        "healing"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "colossaltitanroar",
+      "files": [
+        "colossustitanroar"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "useebiggirl",
+      "files": [
+        "youseebiggirl"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "armoredtitantransform",
+      "files": [
+        "armoredtitanroar"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "key.mcreator.key_bind_open_selection_gui": "Select Titan",
+      "item.my_titan.disc_intro_1": "Music Disc",
+      "item.my_titan.disc_intro_2": "Music Disc",
+      "item.watashi_no_kyojin.entity_controllable_female_titan_spawn_egg": "Female Titan Spawn Egg",
+      "item.watashi_no_kyojin.disc_intro_3.desc": "Linked Horizon - Shinzou wo Sasageyo!",
+      "item.watashi_no_kyojin.entity_controllable_colossal_titan_spawn_egg": "Colossal TItan Spawn Egg",
+      "item.my_titan.auto_unlock_titan_armored": "Armored Titan",
+      "subtitles.s2intro": "",
+      "entity.my_titan.entity_controllable_attack_titan": "Attack Titan",
+      "item.my_titan.disc_you_see_big_girl": "Music Disc",
+      "item.my_titan.auto_unlock_titan_colossal": "Colossal Titan",
+      "subtitles.armoredtitantransform": "",
+      "key.mcreator.key_bind_heal": "Regenerate",
+      "subtitles.youseebiggirl": "",
+      "item.watashi_no_kyojin.disc_you_see_big_girl.desc": "Hiroyuki Sawano - YOUSEEBIGGIRL/T:T",
+      "itemGroup.tabcreative_tab_my_titan": "My Titan",
+      "item.my_titan.disc_intro_1.desc": "Linked Horizon  - Guren no Yumiya",
+      "item.my_titan.disc_intro_5": "Music Disc",
+      "item.watashi_no_kyojin.auto_unlock_titan_female": "Female Titan",
+      "item.watashi_no_kyojin.item_saddle_cart_titan": "Cart Titan Saddle",
+      "item.my_titan.disc_intro_6": "Music Disc",
+      "item.my_titan.disc_intro_3": "Music Disc",
+      "subtitles.titalselectionsmusic": "",
+      "item.my_titan.disc_intro_4": "Music Disc",
+      "subtitles.healing": "",
+      "subtitles.femaletitanroar": "",
+      "item.watashi_no_kyojin.entity_controllable_attack_titan_spawn_egg": "Attack Titan Spawn Egg",
+      "subtitles.s3intro2": "",
+      "key.mcreator.key_binding_titan_2ndary_ability": "Seconday Titan Ability",
+      "item.watashi_no_kyojin.item_mini_gun_pellets": "Item Mini Gun Pellets",
+      "subtitles.s3intro1": "",
+      "item.my_titan.auto_unlock_titan_female": "Female Titan",
+      "subtitles.attacktitantransform": "",
+      "item.my_titan.weapon_cart_titan_minigun": "Cart Titan Minigun",
+      "item.watashi_no_kyojin.disc_you_see_big_girl": "Music Disc",
+      "entity.watashi_no_kyojin.entity_controllable_female_titan": "Female Titan",
+      "key.categories.aom": "My Titan",
+      "key.mcreator.key_binding_titan_primary_ability": "Primary Titan Ability",
+      "item.my_titan.item_saddle_cart_titan": "Cart Titan Saddle",
+      "subtitles.useebiggirl": "",
+      "entity.watashi_no_kyojin.entity_controllable_cart_titan": "Cart Titan",
+      "subtitles.genertictransform": "",
+      "item.watashi_no_kyojin.disc_intro_1": "Music Disc",
+      "subtitles.heartbeat": "",
+      "item.watashi_no_kyojin.disc_intro_2.desc": "Linked Horizon - Jiyuu no Tsubasan",
+      "item.my_titan.disc_you_see_big_girl.desc": "Hiroyuki Sawano - YOUSEEBIGGIRL/T:T",
+      "item.watashi_no_kyojin.weapon_cart_titan_minigun": "Cart Titan Minigun",
+      "item.watashi_no_kyojin.disc_intro_4": "Music Disc",
+      "item.my_titan.entity_controllable_armored_titan_spawn_egg": "Armored Titan Spawn Egg",
+      "item.watashi_no_kyojin.disc_intro_5": "Music Disc",
+      "item.watashi_no_kyojin.disc_intro_2": "Music Disc",
+      "item.watashi_no_kyojin.disc_intro_3": "Music Disc",
+      "item.my_titan.disc_intro_3.desc": "Linked Horizon - Shinzou wo Sasageyo!",
+      "item.my_titan.disc_intro_6.desc": "Shinsei Kamattechan - My War",
+      "item.watashi_no_kyojin.disc_intro_6": "Music Disc",
+      "key.mcreator.key_titan_primary_attack": "Primary Titan Attack",
+      "entity.watashi_no_kyojin.entity_controllable_colossal_titan": "Colossal TItan",
+      "item.watashi_no_kyojin.disc_intro_5.desc": "Linked Horizon - Shoukei to Shikabane no Michi",
+      "subtitles.healingsfx": "",
+      "item.watashi_no_kyojin.entity_controllable_cart_titan_spawn_egg": "Cart Titan Spawn Egg",
+      "item.my_titan.disc_intro_4.desc": "Yoshiki - Red Swan",
+      "key.mcreator.titan_jump": "Titan Jump",
+      "item.watashi_no_kyojin.disc_intro_6.desc": "Shinsei Kamattechan - My War",
+      "item.my_titan.entity_controllable_cart_titan_spawn_egg": "Cart Titan Spawn Egg",
+      "item.my_titan.item_mini_gun_pellets": "Item Mini Gun Pellets",
+      "entity.my_titan.entity_controllable_cart_titan": "Cart Titan",
+      "item.watashi_no_kyojin.auto_unlock_titan_cart": "Cart Titan",
+      "subtitles.s4intro": "",
+      "subtitles.colossaltitanroar": "",
+      "item.my_titan.entity_controllable_attack_titan_spawn_egg": "Attack Titan Spawn Egg",
+      "subtitles.attacktitanerentransform": "",
+      "item.my_titan.auto_unlock_titan_cart": "Cart Titan",
+      "subtitles.colossalscream": "",
+      "key.mcreator.key_binding_transform": "Transform",
+      "item.watashi_no_kyojin.auto_unlock_titan_attack": "Attack Titan",
+      "item.watashi_no_kyojin.disc_intro_1.desc": "Linked Horizon  - Guren no Yumiya",
+      "subtitles.attacktitanroartransform": "",
+      "entity.watashi_no_kyojin.entity_controllable_attack_titan": "Attack Titan",
+      "entity.my_titan.entity_controllable_colossal_titan": "Colossal TItan",
+      "item.watashi_no_kyojin.disc_intro_4.desc": "Yoshiki - Red Swan",
+      "item.my_titan.entity_controllable_colossal_titan_spawn_egg": "Colossal TItan Spawn Egg",
+      "item.my_titan.disc_intro_5.desc": "Linked Horizon - Shoukei to Shikabane no Michi",
+      "entity.my_titan.entity_controllable_armored_titan": "Armored Titan",
+      "subtitles.s1intro1": "",
+      "item.my_titan.disc_intro_2.desc": "Linked Horizon - Jiyuu no Tsubasan",
+      "subtitles.s1intro2": "",
+      "entity.my_titan.entity_controllable_female_titan": "Female Titan",
+      "item.watashi_no_kyojin.auto_unlock_titan_colossal": "Colossal Titan",
+      "item.my_titan.auto_unlock_titan_attack": "Attack Titan",
+      "item.my_titan.entity_controllable_female_titan_spawn_egg": "Female Titan Spawn Egg"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "my_titan",
+    "modName": "My Titan",
+    "version": "1.0.0",
+    "description": "An Attack on Titan mod",
+    "author": "KillsBoostMyEgo, RetiredTeenager, Jerremy18",
+    "websiteURL": "https://discord.gg/AaF638kdtjdd",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "obfuscate",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Programming by KillsBoostMyEgo, Models by RetiredTeenager and Jerremy18",
+    "modElementsPackage": "net.killsboost.watashinokyojin",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

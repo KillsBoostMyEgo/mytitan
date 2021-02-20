@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc6",
+    "name": "Music Disc",
+    "description": "Shinsei Kamattechan - My War",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:s4intro"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

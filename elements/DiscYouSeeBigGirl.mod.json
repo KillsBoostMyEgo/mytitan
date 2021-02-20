@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "discbig",
+    "name": "Music Disc",
+    "description": "Hiroyuki Sawano - YOUSEEBIGGIRL/T:T",
+    "creativeTab": {
+      "value": "CUSTOM:CreativeTabMyTitan"
+    },
+    "music": {
+      "value": "CUSTOM:useebiggirl"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

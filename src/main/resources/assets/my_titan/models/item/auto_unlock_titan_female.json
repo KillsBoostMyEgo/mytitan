@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "my_titan:items/1037997_1378072406256_262_284"
+  }
+}

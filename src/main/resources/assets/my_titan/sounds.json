@@ -1,0 +1,137 @@
+{
+  "genertictransform": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "my_titan:titanshifting",
+        "stream": false
+      }
+    ]
+  },
+  "s2intro": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "my_titan:s2intro",
+        "stream": true
+      }
+    ]
+  },
+  "s1intro2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "my_titan:s1intro2",
+        "stream": true
+      }
+    ]
+  },
+  "s1intro1": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "my_titan:s1intro",
+        "stream": true
+      }
+    ]
+  },
+  "s3intro1": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "my_titan:s3intro",
+        "stream": true
+      }
+    ]
+  },
+  "s3intro2": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "my_titan:s3intro2",
+        "stream": true
+      }
+    ]
+  },
+  "s4intro": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "my_titan:s4intro",
+        "stream": true
+      }
+    ]
+  },
+  "attacktitanerentransform": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "my_titan:attack_titan_eren_roar_sound_effect",
+        "stream": false
+      }
+    ]
+  },
+  "titalselectionsmusic": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "my_titan:titanselectionguisfx",
+        "stream": true
+      }
+    ]
+  },
+  "heartbeat": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "my_titan:heartbeatsfx",
+        "stream": false
+      }
+    ]
+  },
+  "femaletitanroar": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "my_titan:femaletitanscream",
+        "stream": false
+      }
+    ]
+  },
+  "healingsfx": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "my_titan:healing",
+        "stream": false
+      }
+    ]
+  },
+  "colossaltitanroar": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "my_titan:colossustitanroar",
+        "stream": false
+      }
+    ]
+  },
+  "useebiggirl": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "my_titan:youseebiggirl",
+        "stream": false
+      }
+    ]
+  },
+  "armoredtitantransform": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "my_titan:armoredtitanroar",
+        "stream": false
+      }
+    ]
+  }
+}

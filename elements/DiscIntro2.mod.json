@@ -1,0 +1,17 @@
+{
+  "_fv": 13,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc2",
+    "name": "Music Disc",
+    "description": "Linked Horizon - Jiyuu no Tsubasan",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:s1intro2"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

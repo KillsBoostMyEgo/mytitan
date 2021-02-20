@@ -1,0 +1,11 @@
+{
+  "_fv": 13,
+  "_type": "tab",
+  "definition": {
+    "name": "My Titan",
+    "icon": {
+      "value": "Items.TRIDENT"
+    },
+    "showSearch": true
+  }
+}
